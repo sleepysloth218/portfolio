@@ -1,0 +1,25 @@
+.contact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-button {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-button > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.contact-button > button > svg {
+  margin-right: 0;
+}

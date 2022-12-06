@@ -1,1 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
+/* ======= JEFF'S CSS RESET ======= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========== MY STYLES ========== */
+
+* {
+  font-family: Quicksand, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-width: 600px;
+}
+
+.page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  color: #c080eb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-wrapper > div {
+  padding: 100px 0 30px 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: lowercase;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #c080eb;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+  box-shadow: 0 4px 10px #71717100;
+  margin: 10px 0;
+}
+
+button > svg {
+  margin-right: 5px;
+}
+
+button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 5px #71717130;
+}

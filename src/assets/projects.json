@@ -1,0 +1,44 @@
+[
+  {
+    "title": "project 1",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  },
+  {
+    "title": "project 2",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  },
+  {
+    "title": "project 3",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  },
+  {
+    "title": "project 4",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  },
+  {
+    "title": "project 5",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  },
+  {
+    "title": "project 6",
+    "date": "10/2020",
+    "coverImg": "profile.jpeg",
+    "description": "project description/tagline info goes here",
+    "page": "projecttemplate.md"
+  }
+]
