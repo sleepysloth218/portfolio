@@ -21,9 +21,9 @@ export default class Popup extends React.Component {
       this.setState({ content: text });
     };
     reader.readAsText(
-      await fetch("/md-pages/" + this.props.data.page).then((result) =>
-        result.blob()
-      )
+      await fetch(
+        process.env.PUBLIC_URL + "/md-pages/" + this.props.data.page
+      ).then((result) => result.blob())
     );
   };
 

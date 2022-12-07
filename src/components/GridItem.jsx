@@ -32,7 +32,10 @@ export default class GridItem extends React.Component {
             <p>{this.props.data.date}</p>
             <p>{this.props.data.description}</p>
           </div>
-          <img src={`/assets/${this.props.data.coverImg}`} alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/${this.props.data.coverImg}`}
+            alt=""
+          />
         </div>
         <h3 className="grid-item-title">{this.props.data.title}</h3>
 

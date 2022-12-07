@@ -43,7 +43,7 @@
   transition: transform 0.2s ease-in;
 }
 
-.grid-item-overlay:hover {
+.GridItem:hover .grid-item-overlay {
   opacity: 1;
 }
 

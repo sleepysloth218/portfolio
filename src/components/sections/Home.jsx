@@ -8,7 +8,10 @@ export default class Home extends React.Component {
     return (
       <div className="Home" id="Home">
         <div className="profile-img">
-          <img src="/assets/profile.jpeg" alt="profile pic" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/profile.jpeg`}
+            alt="profile pic"
+          />
         </div>
         <div className="home-info">
           <div className="home-text">
