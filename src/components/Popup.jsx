@@ -3,6 +3,7 @@ import "./Popup.css";
 import { Close } from "@mui/icons-material";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+// import rehypeRaw from "rehype-raw";
 
 export default class Popup extends React.Component {
   constructor(props) {
@@ -27,6 +28,8 @@ export default class Popup extends React.Component {
       ).then((result) => result.blob())
     );
   };
+
+  fixImagePath = (src, alt, title) => process.env.PUBLIC_URL + src;
 
   render() {
     return (
@@ -61,6 +64,7 @@ export default class Popup extends React.Component {
               <ReactMarkdown
                 children={this.state.content}
                 remarkPlugins={[remarkGfm]}
+                transformImageUri={this.fixImagePath}
               />
             </div>
           </div>

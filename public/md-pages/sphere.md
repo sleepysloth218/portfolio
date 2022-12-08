@@ -19,4 +19,4 @@ Prototyped in Figma
 **Can I try it?**
 You can view the final prototype [here]().
 
-![cv chess project thumbnail](../../assets/projects/sphere/thumbnail.png)
+![cv chess project thumbnail](/assets/projects/sphere/thumbnail.png)

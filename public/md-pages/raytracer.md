@@ -20,7 +20,7 @@ Built entirely in C++ using QtCreator
 **Can I try it?**
 As this was an academic project using course stencil code, the repository is private but can be shared upon request.
 
-![raytracer project thumbnail](../../assets/projects/raytracer/thumbnail.png)
+![raytracer project thumbnail](/assets/projects/raytracer/thumbnail.png)
 
 I created this raytracer as a project for my Intro to Computer Graphics class in the 2021 fall semester. The project was programmed entirely in C++ in QtCreator.
 
@@ -36,8 +36,8 @@ Features:
 
 Sample images produced by my raytracer:
 
-![all shapes simple scene](../../assets/projects/raytracer/allshapes.png)
-![chess scene](../../assets/projects/raytracer/chess_lars.png)
-![mirror shapes scene](../../assets/projects/raytracer/mirror_refl.png)
-![cheese shadow scene](../../assets/projects/raytracer/shadow_test.png)
-![sphere texture scene](../../assets/projects/raytracer/texture_sphere.png)
+![all shapes simple scene](/assets/projects/raytracer/allshapes.png)
+![chess scene](/assets/projects/raytracer/chess_lars.png)
+![mirror shapes scene](/assets/projects/raytracer/mirror_refl.png)
+![cheese shadow scene](/assets/projects/raytracer/shadow_test.png)
+![sphere texture scene](/assets/projects/raytracer/texture_sphere.png)
