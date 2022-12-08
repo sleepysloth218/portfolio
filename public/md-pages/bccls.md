@@ -20,6 +20,6 @@ Built entirely in vanilla HTML, CSS, and Javascript and deployed on Github pages
 **Can I try it?**
 You can see the finished website [here]() and view the source code on [my Github]().
 
-![cv chess project thumbnail](../assets/projects/bccls/thumbnail.png)
+![cv chess project thumbnail](/assets/projects/bccls/thumbnail.png)
 
 
