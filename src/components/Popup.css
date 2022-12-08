@@ -26,7 +26,9 @@
 .popup-window {
   position: fixed;
   z-index: 1000;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 600px;
   max-height: 90%;
   margin: 50px;
   padding: 20px;
@@ -35,10 +37,18 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-width: 80%;
+}
+
+.popup-content-wrapper {
+  width: 100%;
+  overflow: auto;
+  mask-image: linear-gradient(180deg, #ffffff calc(100% - 20px), transparent);
 }
 
 .popup-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
   overflow: auto;
   padding: 30px;
 }
@@ -50,4 +60,41 @@
 
 .popup-header {
   margin-bottom: 30px;
+}
+
+.Popup li > p {
+  margin-bottom: 5px;
+}
+
+.Popup ul {
+  margin-bottom: 15px;
+}
+
+.Popup p + ul {
+  margin-top: -15px;
+}
+
+.Popup img {
+  width: 100%;
+  margin: 50px 0;
+  position: relative;
+  z-index: -1;
+}
+
+.Popup h3 {
+  margin-top: 50px;
+}
+
+.Popup table img {
+  margin: 0;
+}
+
+.Popup table {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.Popup table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
 }

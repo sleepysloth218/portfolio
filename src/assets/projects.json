@@ -1,44 +1,44 @@
 [
   {
-    "title": "project 1",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "billboard top 100 sorter",
+    "date": "november 2022",
+    "coverImg": "/projects/development/thumbnail.png",
+    "description": "web application for sorting and filtering billboard top 100 music data",
+    "page": "development.md"
   },
   {
-    "title": "project 2",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "sphere app prototype",
+    "date": "november 2022",
+    "coverImg": "/projects/sphere/thumbnail.png",
+    "description": "app prototype for a corporate online learning startup",
+    "page": "sphere.md"
   },
   {
-    "title": "project 3",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "bccls website redesign",
+    "date": "october 2022",
+    "coverImg": "/projects/bccls/thumbnail.png",
+    "description": "redesigned library website with improved responsiveness and usability",
+    "page": "bccls.md"
   },
   {
-    "title": "project 4",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "chess recognizer",
+    "date": "may 2022",
+    "coverImg": "/projects/cvchess/thumbnail.png",
+    "description": "digitally track chess moves through a live camera feeds",
+    "page": "cvchess.md"
   },
   {
-    "title": "project 5",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "cartoon world",
+    "date": "december 2021",
+    "coverImg": "/projects/cartoonworld/thumbnail.png",
+    "description": "interactive virtual world with procedural terrain and stylized shaders",
+    "page": "cartoonworld.md"
   },
   {
-    "title": "project 6",
-    "date": "10/2020",
-    "coverImg": "profile.jpeg",
-    "description": "project description/tagline info goes here",
-    "page": "projecttemplate.md"
+    "title": "raytracer",
+    "date": "october 2021",
+    "coverImg": "/projects/raytracer/thumbnail.png",
+    "description": "render 3D scenes with lighting, shadows, reflections, and textures",
+    "page": "raytracer.md"
   }
 ]

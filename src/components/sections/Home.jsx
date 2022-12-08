@@ -15,7 +15,7 @@ export default class Home extends React.Component {
         </div>
         <div className="home-info">
           <div className="home-text">
-            <h1>Hi! I'm Mehek</h1>
+            <h1>Hi! I'm Firstname</h1>
             <p>
               computer science student, research assistant, and teaching
               assistant at Brown University

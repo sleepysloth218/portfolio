@@ -12,6 +12,9 @@
   position: relative;
   transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
   box-shadow: 0 4px 10px #71717100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .GridItem:hover .grid-thumbnail {

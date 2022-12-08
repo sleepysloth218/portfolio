@@ -1,7 +1,8 @@
 import React from "react";
 import "./Popup.css";
-import { Close, ThreeSixty } from "@mui/icons-material";
+import { Close } from "@mui/icons-material";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export default class Popup extends React.Component {
   constructor(props) {
@@ -33,9 +34,14 @@ export default class Popup extends React.Component {
         className={`Popup ${this.props.shown ? "show" : "hidden"}`}
         onPointerDown={(e) => {
           e.stopPropagation();
+          this.props.togglePopup(false);
         }}
+        onPointerOver={(e) => e.stopPropagation()}
       >
-        <div className="popup-window">
+        <div
+          className="popup-window"
+          onPointerDown={(e) => e.stopPropagation()}
+        >
           <div
             className="close-button"
             onPointerDown={(e) => {
@@ -46,13 +52,17 @@ export default class Popup extends React.Component {
           >
             <Close />
           </div>
-          <div className="popup-content">
-            <div className="popup-header">
-              <h1>{this.props.data.title}</h1>
-              <p>{this.props.data.date}</p>
-            </div>
+          <div className="popup-content-wrapper">
+            <div className="popup-content">
+              <div className="popup-header">
+                <h1>{this.props.data.title}</h1>
+              </div>
 
-            <ReactMarkdown children={this.state.content} />
+              <ReactMarkdown
+                children={this.state.content}
+                remarkPlugins={[remarkGfm]}
+              />
+            </div>
           </div>
         </div>
       </div>
