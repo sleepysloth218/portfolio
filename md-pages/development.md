@@ -17,4 +17,4 @@ Built in React and deployed on Github pages
 **Can I try it?**
 You can view the final website [here]().
 
-![cv chess project thumbnail](../assets/projects/development/thumbnail.png)
+![cv chess project thumbnail](/assets/projects/development/thumbnail.png)
