@@ -19,4 +19,26 @@ Prototyped in Figma
 **Can I try it?**
 You can view the final prototype [here]().
 
-![cv chess project thumbnail](/assets/projects/sphere/thumbnail.png)
+![sphere project thumbnail](/assets/projects/sphere/thumbnail.png)
+
+## About the startup
+
+## Sketching and wireframing
+
+### Brainstorm sketches
+
+### Low fidelity mockup
+
+## Prototype v1
+
+### Initial mockup
+
+### Peer review feedback
+
+## Prototype v2
+
+### Revised mockup
+
+### User testing feedback
+
+## Prototype v3

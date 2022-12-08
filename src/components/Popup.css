@@ -81,6 +81,11 @@
   z-index: -1;
 }
 
+.Popup h2 {
+  text-transform: unset;
+}
+
+.Popup h2,
 .Popup h3 {
   margin-top: 50px;
 }
