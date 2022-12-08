@@ -20,7 +20,7 @@ Built entirely in Python using OpenCV and the python-chess package.
 **Can I try it?**
 You can read the full report [here]() and view the source code on [my Github]().
 
-![cv chess project thumbnail](/assets/projects/cvchess/thumbnail.png)
+![cv chess project thumbnail](../../assets/projects/cvchess/thumbnail.png)
 
 This project was created in collaboration with three other second-year Brown University students for our Computer Vision class final. It was programmed entirely in Python using OpenCV and the Python chess-board package (for displaying the digital board graphic).
 
@@ -30,14 +30,14 @@ The project takes snapshots of the live webcam feed of a chessboard when a playe
 
 ### Process
 
-|![hough transforms](/assets/projects/cvchess/hough.png)|
+|![hough transforms](../../assets/projects/cvchess/hough.png)|
 |:--:|
 |Hough Transforms extract board edges which produce clustered intersection points.|
 
-|![warped board](/assets/projects/cvchess/warp.png)|
+|![warped board](../../assets/projects/cvchess/warp.png)|
 |:--:|
 |The board image is warped using the matrix of corners to divide it up into squares.|
 
-|![full UI](/assets/projects/cvchess/display.png)|
+|![full UI](../../assets/projects/cvchess/display.png)|
 |:--:|
 |Final user interface of the program displaying from left to right: the live webcam feed, most recent snapshot with Hough Lines and board corners, the warped board image with filled squares outlined, and the digital board with the identified game state.|
