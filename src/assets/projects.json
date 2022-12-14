@@ -1,44 +1,44 @@
 [
   {
-    "title": "billboard top 100 sorter",
-    "date": "november 2022",
+    "title": "Billboard Top 100 Sorter",
+    "date": "November 2022",
     "coverImg": "/projects/development/thumbnail.png",
-    "description": "web application for sorting and filtering billboard top 100 music data",
-    "page": "development.mdx"
+    "description": "Web application for sorting and filtering billboard top 100 music data",
+    "page": "development.md"
   },
   {
-    "title": "sphere app prototype",
-    "date": "november 2022",
+    "title": "Sphere App Prototype",
+    "date": "November 2022",
     "coverImg": "/projects/sphere/thumbnail.png",
-    "description": "app prototype for a corporate online learning startup",
-    "page": "sphere.mdx"
+    "description": "App prototype for a corporate online learning startup",
+    "page": "sphere.md"
   },
   {
-    "title": "bccls website redesign",
-    "date": "october 2022",
+    "title": "BCCLS Website Redesign",
+    "date": "October 2022",
     "coverImg": "/projects/bccls/thumbnail.png",
-    "description": "redesigned library website with improved responsiveness and usability",
-    "page": "bccls.mdx"
+    "description": "Redesigned library website with improved responsiveness and usability",
+    "page": "bccls.md"
   },
   {
-    "title": "chess recognizer",
-    "date": "may 2022",
+    "title": "Chess Recognizer",
+    "date": "May 2022",
     "coverImg": "/projects/cvchess/thumbnail.png",
-    "description": "digitally track chess moves through a live camera feeds",
-    "page": "cvchess.mdx"
+    "description": "Digitally track chess moves through a live camera feeds",
+    "page": "cvchess.md"
   },
   {
-    "title": "cartoon world",
-    "date": "december 2021",
+    "title": "Cartoon World",
+    "date": "December 2021",
     "coverImg": "/projects/cartoonworld/thumbnail.png",
-    "description": "interactive virtual world with procedural terrain and stylized shaders",
-    "page": "cartoonworld.mdx"
+    "description": "Interactive virtual world with procedural terrain and stylized shaders",
+    "page": "cartoonworld.md"
   },
   {
-    "title": "raytracer",
-    "date": "october 2021",
+    "title": "Raytracer",
+    "date": "October 2021",
     "coverImg": "/projects/raytracer/thumbnail.png",
-    "description": "render 3D scenes with lighting, shadows, reflections, and textures",
-    "page": "raytracer.mdx"
+    "description": "Render 3D scenes with lighting, shadows, reflections, and textures",
+    "page": "raytracer.md"
   }
 ]

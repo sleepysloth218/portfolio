@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import ReactPlayer from "react-player";
-import { Document } from "react-pdf";
+import { Document, Page } from "react-pdf";
 
 export default class Popup extends React.Component {
   constructor(props) {
@@ -75,13 +75,12 @@ export default class Popup extends React.Component {
                       {props.children}
                     </a>
                   ),
-                  object: ({ node, ...props }) => (
-                    <Document file={process.env.PUBLIC_URL + props.data} />
-                  ),
                   video: ({ node, ...props }) => (
                     <ReactPlayer
                       url={process.env.PUBLIC_URL + props.src}
                       controls={props.controls}
+                      width="100%"
+                      height="100%"
                     />
                   ),
                 }}

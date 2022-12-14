@@ -87,12 +87,16 @@
 }
 
 .Popup h2 {
-  text-transform: unset;
+  margin-top: 50px;
 }
 
 .Popup h2,
 .Popup h3 {
-  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.Popup h3 {
+  margin-top: 30px;
 }
 
 .Popup table img {
