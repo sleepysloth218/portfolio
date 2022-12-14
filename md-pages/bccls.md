@@ -16,11 +16,11 @@
 Built entirely in vanilla HTML, CSS, and Javascript and deployed on Github pages.
 
 **Can I try it?**
-You can see the finished website [here]() and view the source code on [my Github]().
+You can see the finished website [here](https://sleepysloth218.github.io/bccls/) and view the source code on [my Github](https://github.com/sleepysloth218/responsive-redesign/).
 
 ![bccls project thumbnail](/assets/projects/bccls/thumbnail.png)
 
-## What I did
+## What I Did
 
 - analyzed the existing page and looked for problems
 - designed low-fi and high-fi prototypes for the new page
@@ -32,11 +32,11 @@ You can see the finished website [here]() and view the source code on [my Github
 
 I chose this website for my local library account at home because I use it once every couple of months and every time, I find myself having to scan the full page of irregularly laid out irreleveant information to find the important stuff I want to access.
 
-## Existing issues
+## Existing Issues
 
 Analyzed based on usability and accessibility criteria (detected using [WebAIM WAVE](https://wave.webaim.org/))
 
-### Usability issues
+### Usability Issues
 
 - layout is **cluttered and distracting**
   - no specific section draws eyes
@@ -50,7 +50,7 @@ Analyzed based on usability and accessibility criteria (detected using [WebAIM W
     - **pros: distills down clutter** and highlights essential functionality unlike desktop site
     - **cons: poor memorability**, disorienting when switching devices especially for users used to one or other
 
-### Accessibility issues
+### Accessibility Issues
 
 - page language not specified
 - many HTML form elements that do not have attached labels
@@ -61,18 +61,41 @@ Analyzed based on usability and accessibility criteria (detected using [WebAIM W
 
 additionally: not identified by WAVE but I was concerned that many buttons were images, though with alt text
 
-## Low-fi mockups
+## Low-fi Mockups
 
 Created and annotated in Balsamiq
 
-<object data="/assets/projects/bccls/desktop.pdf" type="application/pdf" />
+<object data="/assets/projects/bccls/desktop.pdf" type="application/pdf" width="100%" height="500px"></object>
 
-## Style guide
+<object data="/assets/projects/bccls/tablet.pdf" type="application/pdf" width="100%" height="500px" /></object>
+
+<object data="/assets/projects/bccls/mobile.pdf" type="application/pdf" width="100%" height="500px" /></object>
+
+## Style Guide
 
 Developed in Figma to define the key aesthetic characteristics of the page including, fonts, colors, and styling for the major components.
 
-## High-fi mockups
+<iframe style="border: 1px solid #000;" width="100%" height="500"
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGeykdbntRv53s0MyL7NCe2%2FBCCLS-Design-Guide%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A2"
+                        allowfullscreen></iframe>
 
-Created and annotated in Figma
+## High-fi Mockups
 
-## Final version
+Created and annotated in Figma. Click through the pages to view the annotations and the different screen sizes.
+
+<iframe style="border: 1px solid #000;" width="800" height="450"
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Foxi4ivFQZo31755RvYM5Ju%2FBCCLS-High-Fi-Mockups%3Fnode-id%3D1%253A899%26scaling%3Dscale-down-width%26page-id%3D0%253A1"
+                        allowfullscreen></iframe>
+
+## Final Version
+
+Following the Figma mockup I built out the page using pure vanilla HTML/CSS.
+
+Due to the time constraints some interactive elements were not fully developed, but I would like to go back in the future and flesh out the webpage:
+- image slideshow is static
+- book browsing carousels are also static
+- navigation bar menu
+  - on desktop dropdowns should display on hover
+  - hamburger menu should open on mobile
+
+You can view the finished version [here](https://sleepysloth218.github.io/bccls/)
