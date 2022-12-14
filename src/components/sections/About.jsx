@@ -13,7 +13,7 @@ export default class About extends React.Component {
           Artificial Intelligence/Machine Learning.
         </p>
         <p>
-          At Brown, I am currently a lead research assistant of the{" "}
+          At Brown, I am currently a research assistant for the{" "}
           <a
             href="https://brown-dash.github.io/Dash-Documentation/"
             target="_blank"
@@ -27,9 +27,9 @@ export default class About extends React.Component {
           , Brown's undergraduate computer graphics course.
         </p>
         <p>
-          My interests include computer graphics, UI/UX design, and animation.
-          Outside of class you can find me playing the violin, drawing, and
-          losing at board games.
+          My interests include computer graphics, web development, and UI/UX
+          design. Outside of class you can find me playing the violin, drawing,
+          and losing at board games.
         </p>
       </div>
     );

@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Popup.css";
 import { Close } from "@mui/icons-material";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-// import rehypeRaw from "rehype-raw";
+import rehypeRaw from "rehype-raw";
+import ReactPlayer from "react-player";
 
 export default class Popup extends React.Component {
   constructor(props) {
@@ -64,7 +66,30 @@ export default class Popup extends React.Component {
               <ReactMarkdown
                 children={this.state.content}
                 remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeRaw]}
                 transformImageUri={this.fixImagePath}
+                components={{
+                  a: ({ node, ...props }) => (
+                    <a href={props.href} target="_blank">
+                      {props.children}
+                    </a>
+                  ),
+                  object: ({ node, ...props }) => <a>hello</a>,
+                  video: ({ node, ...props }) => {
+                    return (
+                      <ReactPlayer
+                        url={process.env.PUBLIC_URL + props.src}
+                        controls={props.controls}
+                      />
+                      // <a
+                      //   target="_blank"
+                      //   href={process.env.PUBLIC_URL + props.src}
+                      // >
+                      //   hello
+                      // </a>
+                    );
+                  },
+                }}
               />
             </div>
           </div>

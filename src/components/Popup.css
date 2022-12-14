@@ -26,7 +26,7 @@
 .popup-window {
   position: fixed;
   z-index: 1000;
-  width: 100%;
+  width: calc(100% - 100px);
   max-width: 1200px;
   min-width: 600px;
   max-height: 90%;
@@ -70,6 +70,11 @@
   margin-bottom: 15px;
 }
 
+.Popup ul ul {
+  margin: 0;
+  list-style-type: circle;
+}
+
 .Popup p + ul {
   margin-top: -15px;
 }
@@ -102,4 +107,8 @@
 .Popup table {
   border-collapse: separate;
   border-spacing: 0 20px;
+}
+
+.Popup video {
+  margin: 20px 0;
 }

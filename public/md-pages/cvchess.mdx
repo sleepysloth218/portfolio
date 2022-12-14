@@ -12,8 +12,6 @@
 - Avoid "black box" deep learning methods for chess recognition in favor of a more transparent algorithm
 - Strengthen Python and OpenCV skills
 
-  
-
 **How:**
 Built entirely in Python using OpenCV and the python-chess package.
 
@@ -30,14 +28,22 @@ The project takes snapshots of the live webcam feed of a chessboard when a playe
 
 ### Process
 
-|![hough transforms](/assets/projects/cvchess/hough.png)|
-|:--:|
-|Hough Transforms extract board edges which produce clustered intersection points.|
+|              ![hough transforms](/assets/projects/cvchess/hough.png)              |
+| :-------------------------------------------------------------------------------: |
+| Hough Transforms extract board edges which produce clustered intersection points. |
 
-|![warped board](/assets/projects/cvchess/warp.png)|
-|:--:|
-|The board image is warped using the matrix of corners to divide it up into squares.|
+|                 ![warped board](/assets/projects/cvchess/warp.png)                  |
+| :---------------------------------------------------------------------------------: |
+| The board image is warped using the matrix of corners to divide it up into squares. |
 
-|![full UI](/assets/projects/cvchess/display.png)|
-|:--:|
-|Final user interface of the program displaying from left to right: the live webcam feed, most recent snapshot with Hough Lines and board corners, the warped board image with filled squares outlined, and the digital board with the identified game state.|
+|                                                                                                       ![full UI](/assets/projects/cvchess/display.png)                                                                                                       |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Final user interface of the program displaying from left to right: the live webcam feed, most recent snapshot with Hough Lines and board corners, the warped board image with filled squares outlined, and the digital board with the identified game state. |
+
+### Demo Video
+
+<video
+  src="/assets/projects/cvchess/samplevid.mp4"
+  alt="chess demo video"
+  controls
+/>
