@@ -83,7 +83,7 @@ Developed in Figma to define the key aesthetic characteristics of the page inclu
 
 Created and annotated in Figma. Click through the pages to view the annotations and the different screen sizes.
 
-<iframe style="border: 1px solid #000;" width="800" height="450"
+<iframe style="border: 1px solid #000;" width="100%" height="500"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Foxi4ivFQZo31755RvYM5Ju%2FBCCLS-High-Fi-Mockups%3Fnode-id%3D1%253A899%26scaling%3Dscale-down-width%26page-id%3D0%253A1"
                         allowfullscreen></iframe>
 

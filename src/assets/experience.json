@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Activision",
+    "position": "Engine Engineering Intern",
+    "duration": "05/2023 - 08/2023",
+    "location": "Los Angeles, CA",
+    "description": [
+      "Incoming intern",
+      "Soon to be working at Infinity Ward Studios on the Call of Duty game engine"
+    ]
+  },
+  {
+    "company": "Brown University",
+    "position": "Research Assistant",
+    "duration": "05/2021 - Present",
+    "location": "Providence, RI",
+    "description": [
+      "Lead a team of research assistants in building a browser-based hypermedia system using the MERN stack and Typescript",
+      "Delegate coding tasks, oversee weekly meetings and codebase updates, execute UI changes, and perform user testing",
+      "Instituted a new system of peer code reviews to streamline the process of verifying updates pushed for production"
+    ]
+  },
+  {
+    "company": "Brown University",
+    "position": "Teaching Assistant",
+    "duration": "06/2022 - 12/2022",
+    "location": "Providence, RI",
+    "description": [
+      "Developed assignment code and specifications for Brown's CSCI 1230 computer graphics course in C++ and OpenGL",
+      "Led a subteam of TAs in rewriting multiple course projects and created a new assignment with an interactive OpenGL demo",
+      "Assisted students in learning graphics concepts and writing code for rendering processes"
+    ]
+  },
+  {
+    "company": "CMYK Digital Agency",
+    "position": "Web Development Intern",
+    "duration": "09/2019 - 06/2020",
+    "location": "New York, NY",
+    "description": [
+      "Built HTML/CSS templates for client contracted web pages from design mockups",
+      "Enhanced and maintained existing client sites"
+    ]
+  },
+  {
+    "company": "Morgan Stanley",
+    "position": "Technology Analyst Intern",
+    "duration": "07/2019 - 08/2019",
+    "location": "New York, NY",
+    "description": [
+      "Restored and refined Enterprise Computing Services department website in HTML/CSS/JS and Bootstrap",
+      "Maintained an online inventory of company database services"
+    ]
+  }
+]

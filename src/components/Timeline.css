@@ -1,0 +1,17 @@
+/* TIMELINE STYLING REFERENCE: https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/ */
+
+.Timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Timeline::after {
+  background-color: #c080eb;
+  content: "";
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 100%;
+  border-radius: 2px;
+}

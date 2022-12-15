@@ -37,7 +37,9 @@ export default class GridItem extends React.Component {
             alt=""
           />
         </div>
-        <h3 className="grid-item-title">{this.props.data.title}</h3>
+        <h3 className="grid-item-title">
+          <span>{this.props.data.title}</span>
+        </h3>
 
         <Popup
           togglePopup={this.togglePopup}
