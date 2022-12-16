@@ -23,7 +23,6 @@ export default class ExpandListItem extends React.Component {
           <div className="expandlist-item-info">
             <p>{this.props.data.duration}</p>
             <p>{this.props.data.major}</p>
-            <p>{this.props.data.gpa}</p>
           </div>
           {this.props.data.description && (
             <div className="expandlist-item-description">

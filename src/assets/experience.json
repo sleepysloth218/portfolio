@@ -1,23 +1,12 @@
 [
   {
-    "company": "Activision",
-    "position": "Engine Engineering Intern",
-    "duration": "05/2023 - 08/2023",
-    "location": "Los Angeles, CA",
-    "description": [
-      "Incoming intern",
-      "Soon to be working at Infinity Ward Studios on the Call of Duty game engine"
-    ]
-  },
-  {
     "company": "Brown University",
     "position": "Research Assistant",
     "duration": "05/2021 - Present",
     "location": "Providence, RI",
     "description": [
       "Lead a team of research assistants in building a browser-based hypermedia system using the MERN stack and Typescript",
-      "Delegate coding tasks, oversee weekly meetings and codebase updates, execute UI changes, and perform user testing",
-      "Instituted a new system of peer code reviews to streamline the process of verifying updates pushed for production"
+      "Delegate coding tasks, oversee weekly meetings and codebase updates, execute UI changes, and perform user testing"
     ]
   },
   {
@@ -27,7 +16,7 @@
     "location": "Providence, RI",
     "description": [
       "Developed assignment code and specifications for Brown's CSCI 1230 computer graphics course in C++ and OpenGL",
-      "Led a subteam of TAs in rewriting multiple course projects and created a new assignment with an interactive OpenGL demo",
+      "Helped rewrite multiple course projects and created a new assignment with an interactive OpenGL demo",
       "Assisted students in learning graphics concepts and writing code for rendering processes"
     ]
   },

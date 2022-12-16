@@ -4,14 +4,12 @@
     "degree": "Bachelor of Science",
     "duration": "09/2020 - 05/2024",
     "major": "Computer Science",
-    "gpa": "4.00/4.00",
     "description": "Relevant coursework: Computer Systems, Algorithms and Data Structures, Object-Oriented Programming, Computer Graphics, Computer Vision, UI/UX, Discrete Structures and Probability, Linear Algebra, Statistical Inference"
   },
   {
     "school": "Bergen County Academies",
     "degree": "High School Diploma",
     "duration": "09/2016 - 06/2020",
-    "major": "Academy for Engineering Design Technology",
-    "gpa": "3.96/4.00"
+    "major": "Academy for Engineering Design Technology"
   }
 ]

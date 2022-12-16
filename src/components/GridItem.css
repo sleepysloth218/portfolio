@@ -56,7 +56,6 @@
 }
 
 .grid-item-title {
-  text-transform: lowercase;
   list-style: none;
   margin: 0 20px;
 }
