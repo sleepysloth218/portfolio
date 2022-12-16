@@ -23,10 +23,10 @@
 
 .timeline-content-wrapper {
   border-radius: 10px;
-  background-color: #e5e5e5;
+  background-color: #eeeeee;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px 20px;
   position: relative;
   min-width: 300px;
   transition: background-color 0.2s ease-in, color 0.2s ease-in,
@@ -37,12 +37,12 @@
 
 .timeline-content-wrapper:hover {
   transform: scale(1.01);
-  box-shadow: 0 4px 5px #71717130;
+  box-shadow: 0 4px 5px #71717110;
 }
 
 .timeline-content-wrapper::after {
   content: " ";
-  background-color: #e5e5e5;
+  background-color: #eeeeee;
   position: absolute;
   right: -7.5px;
   top: calc(50% - 7.5px);

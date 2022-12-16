@@ -1,0 +1,55 @@
+.ExpandListItem {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in,
+    transform 0.2s ease-in, box-shadow 0.2s ease-in;
+  cursor: pointer;
+  box-shadow: 0 4px 10px #71717100;
+}
+
+.ExpandListItem:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 5px #71717110;
+}
+
+.ExpandListItem.expanded {
+  background-color: #c080eb;
+}
+
+.ExpandListItem.flattened .expandlist-item-body {
+  transform: scaleY(0);
+  padding: 10;
+  max-height: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in, max-height 0.4s ease-out,
+    transform 0s ease-in 0.4s, padding 0.4s;
+}
+
+.ExpandListItem.expanded .expandlist-item-body {
+  transform: scaleY(1);
+  padding: 10px 0;
+  max-height: 1000px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in 0.2s, max-height 0.4s ease-in, padding 0.4s;
+}
+
+.expandlist-item-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.expandlist-item-description {
+  width: 50%;
+}
+
+.expandlist-item-body p {
+  margin: 0;
+  line-height: 1.5;
+}

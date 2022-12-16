@@ -1,3 +1,5 @@
+<header>
+
 **Who:** Just me
 
 **What:** Raytracer program that renders 3D scenes with lighting and textures
@@ -19,6 +21,10 @@ Built entirely in C++ using QtCreator
 
 **Can I try it?**
 As this was an academic project using course stencil code, the repository is private but can be shared upon request.
+
+**Future goals:**
+Add more complex features such as refractions, depth of field, and multithreading
+</header>
 
 ![raytracer project thumbnail](/assets/projects/raytracer/thumbnail.png)
 

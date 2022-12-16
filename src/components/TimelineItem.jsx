@@ -31,8 +31,8 @@ export default class TimelineItem extends React.Component {
             </div>
             <div className="timeline-item-body">
               <ul>
-                {this.props.data.description.map((bullet) => (
-                  <li>{bullet}</li>
+                {this.props.data.description.map((bullet, id) => (
+                  <li key={id}>{bullet}</li>
                 ))}
               </ul>
             </div>

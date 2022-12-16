@@ -1,9 +1,8 @@
 import React from "react";
 import "../App.css";
-import TimelineItem from "./TimelineItem";
-import "./Timeline.css";
+import ExpandListItem from "./ExpandListItem";
 
-export default class Timeline extends React.Component {
+export default class ExpandList extends React.Component {
   constructor(props) {
     super(props);
     this.state = { expanded: undefined };
@@ -19,11 +18,11 @@ export default class Timeline extends React.Component {
 
   render() {
     return (
-      <div className="Timeline">
+      <div className="ExpandList">
         {this.props.data.map((item, id) => (
-          <TimelineItem
-            key={id}
+          <ExpandListItem
             data={item}
+            key={id}
             expanded={this.state.expanded}
             clickHandler={this.onItemClick}
           />

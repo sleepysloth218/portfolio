@@ -1,3 +1,5 @@
+<header>
+
 **Who:** Just me
 
 **What:** Redesigned desktop, tablet, and mobile versions of my [local library system's website](https://www.bccls.org/)
@@ -18,7 +20,14 @@ Built entirely in vanilla HTML, CSS, and Javascript and deployed on Github pages
 **Can I try it?**
 You can see the finished website [here](https://sleepysloth218.github.io/bccls/) and view the source code on [my Github](https://github.com/sleepysloth218/responsive-redesign/).
 
+**Future goals:**
+Flesh out interactive components to be functional
+
+</header>
+
 ![bccls project thumbnail](/assets/projects/bccls/thumbnail.png)
+
+This project was completed alone for my User Interfaces and User Experience class. The goal was to take an existing website with usability issues then design and build an improved version using HTML and CSS.
 
 ## What I Did
 

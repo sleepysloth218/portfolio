@@ -83,6 +83,12 @@ export default class Popup extends React.Component {
                       height="100%"
                     />
                   ),
+                  header: ({ node, ...props }) => (
+                    <div className="project-tldr">
+                      <h2>TLDR</h2>
+                      {props.children}
+                    </div>
+                  ),
                 }}
               />
             </div>

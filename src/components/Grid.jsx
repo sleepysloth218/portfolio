@@ -6,8 +6,8 @@ export default class Grid extends React.Component {
   render() {
     return (
       <div className="Grid">
-        {this.props.data.map((item) => (
-          <GridItem data={item} />
+        {this.props.data.map((item, id) => (
+          <GridItem data={item} key={id} />
         ))}
       </div>
     );

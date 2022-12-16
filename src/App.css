@@ -88,7 +88,7 @@ button {
   align-items: center;
   cursor: pointer;
   transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
-  box-shadow: 0 4px 10px #71717100;
+  box-shadow: 0 4px 5px #71717100;
   margin: 10px 0;
 }
 

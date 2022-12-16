@@ -1,3 +1,5 @@
+<header>
+
 **Who:** Me and 2 other Brown University sophomores (Firstname Lastname and Firstname Lastname)
 
 **What:** Interactive virtual world with procedural terrain and stylized shaders.
@@ -19,6 +21,11 @@ Built entirely in C++ using QtCreator, OpenGL, and GLSL
 
 **Can I try it?**
 You can view the source code on [my Github]().
+
+**Future goals:**
+Potentially extend or build another similar project with infinite terrain as you move and skybox for more immersion
+
+</header>
 
 ![cartoon world project thumbnail](/assets/projects/cartoonworld/thumbnail.png)
 

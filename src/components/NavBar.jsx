@@ -7,11 +7,11 @@ export default class NavBar extends React.Component {
       <div className={`NavBar ${this.props.shadow && "shadow"}`}>
         <div className="navbar-wrapper">
           <ul className="navbar-content">
-            {this.props.sections.map((section) => (
-              <li className="nav-item">
+            {this.props.sections.map((section, id) => (
+              <li className="nav-item" key={id}>
                 <a
                   href={`#${section}`}
-                  className={this.props.active === section && "active"}
+                  className={this.props.active === section ? "active" : ""}
                 >
                   {section}
                 </a>

@@ -14,13 +14,13 @@
 .Popup.hidden {
   opacity: 0;
   transform: translate(0, 100%);
-  transition: opacity 0.2s ease-in, transform 0.2s 0.2s ease-in;
+  transition: opacity 0.2s ease-in, transform 0s ease-in 0.2s;
 }
 
 .Popup.show {
   opacity: 1;
   transform: translate(0, 0);
-  transition: transform 0.2s ease-in, opacity 0.2s 0.2s ease-in;
+  transition: transform 0s ease-in, opacity 0.2s ease-in 0.2s;
 }
 
 .popup-window {
@@ -115,4 +115,14 @@
 
 .Popup video {
   margin: 20px 0;
+}
+
+.project-tldr {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-tldr h2 {
+  margin-top: 0;
 }
