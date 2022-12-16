@@ -1,3 +1,5 @@
+<header>
+
 **Who:** Me and 3 other Brown University sophomores (Firstname Lastname, Firstname Lastname, and Firstname Lastname)
 
 **What:** Program which tracks chess moves through a live camera feed and updates a digital display of the board
@@ -17,6 +19,11 @@ Built entirely in Python using OpenCV and the python-chess package.
 
 **Can I try it?**
 You can read the full report [here]() and view the source code on [my Github]().
+
+**Future goals:**
+No plans as of now to extend this project
+
+</header>
 
 ![cv chess project thumbnail](/assets/projects/cvchess/thumbnail.png)
 

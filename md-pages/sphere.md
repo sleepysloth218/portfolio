@@ -1,3 +1,5 @@
+<header>
+
 **Who:** Me and 3 other Brown University juniors (Firstname Lastname, Firstname Lastname, and Firstname Lastname)
 
 **What:** App prototype for the corporate online education service startup [Sphere](https://www.ycombinator.com/companies/sphere)
@@ -19,9 +21,15 @@ Prototyped in Figma
 **Can I try it?**
 You can view the final prototype [here](https://www.figma.com/proto/UQQDwvJ1NN4RIoWJ87S183/Sphere-HiFi-3.0?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A1282&node-id=1%3A1282).
 
+**Future goals:**
+No plans as of now to extend this project
+
+</header>
+
 ![sphere project thumbnail](/assets/projects/sphere/thumbnail.png)
 
-For this project, we browsed through different YCombinator startups and chose one to prototype their product.
+
+This project was created in collaboration with three other third-year Brown University students for our User Interfaces and User Experience class. We looked at different YCombinator startups and chose one whose mission we were interested in. We then prototyped an interface in Figma for their product.
 
 ## About The Startup
 
