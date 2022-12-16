@@ -24,7 +24,7 @@
     "title": "Chess Recognizer",
     "date": "May 2022",
     "coverImg": "/projects/cvchess/thumbnail.png",
-    "description": "Digitally track chess moves through a live camera feeds",
+    "description": "Digitally track chess moves through a live camera feed",
     "page": "cvchess.md"
   },
   {
