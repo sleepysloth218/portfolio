@@ -102,6 +102,11 @@ Find out who the instructor for ENGN1010 is and send them a message.
 2. Were there any interactive elements that were not immediately intuitive to you?
 3. What did you like about the app?
 
+  
+
+&nbsp;
+
+
 Here is a summary of the results:
 - all users completed the task successfully
 - overall, they felt the UI was simple and intuitive
