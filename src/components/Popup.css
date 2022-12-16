@@ -75,7 +75,8 @@
   list-style-type: circle;
 }
 
-.Popup p + ul {
+.Popup p + ul,
+.Popup p + ol {
   margin-top: -15px;
 }
 
