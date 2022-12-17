@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./TimelineItem.css";
+import { ExpandMoreRounded } from "@mui/icons-material";
 
 export default class TimelineItem extends React.Component {
   render() {
@@ -35,6 +36,10 @@ export default class TimelineItem extends React.Component {
                   <li key={id}>{bullet}</li>
                 ))}
               </ul>
+            </div>
+
+            <div className="timeline-item-arrow">
+              <ExpandMoreRounded style={{ transform: "scale(1.5)" }} />
             </div>
           </div>
 

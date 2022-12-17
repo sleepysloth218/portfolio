@@ -21,11 +21,17 @@
   padding-right: 0;
 }
 
+.timeline-item-content {
+  width: 100%;
+}
+
 .timeline-content-wrapper {
   border-radius: 10px;
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 10px 20px;
   position: relative;
   min-width: 300px;
@@ -50,11 +56,6 @@
   width: 15px;
   height: 15px;
   transition: background-color 0.2s ease-in;
-}
-
-.TimelineItem:nth-child(odd) .timeline-content-wrapper {
-  text-align: left;
-  align-items: flex-start;
 }
 
 .TimelineItem:nth-child(odd) .timeline-content-wrapper::after {
@@ -113,6 +114,7 @@
 
 .timeline-item-body {
   transform-origin: top;
+  width: 100%;
 }
 
 .TimelineItem.flattened .timeline-item-body {
@@ -128,4 +130,21 @@
   max-height: 1000px;
   opacity: 1;
   transition: opacity 0.2s ease-in 0.2s, max-height 0.4s ease-in;
+}
+
+.timeline-item-arrow {
+  transition: color 0.2s ease-in, transform 0.2s ease-in, margin 0.2s ease-in;
+}
+
+.TimelineItem.flattened .timeline-item-arrow {
+  margin: -10px 0;
+}
+
+.TimelineItem.expanded .timeline-item-arrow {
+  margin: 0;
+  transform: rotate(180deg);
+}
+
+.TimelineItem.flattened:hover .timeline-item-arrow {
+  color: #c080eb;
 }

@@ -17,6 +17,14 @@
   box-shadow: 0 4px 5px #71717110;
 }
 
+.ExpandListItem:hover .expand-list-arrow {
+  color: #c080eb;
+}
+
+.ExpandListItem.expanded:hover .expand-list-arrow {
+  color: #000000;
+}
+
 .ExpandListItem.expanded {
   background-color: #c080eb;
 }
@@ -52,4 +60,19 @@
 .expandlist-item-body p {
   margin: 0;
   line-height: 1.5;
+}
+
+.expandlist-item-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expand-list-arrow {
+  transition: color 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.ExpandListItem.expanded .expand-list-arrow {
+  transform: rotate(90deg);
 }

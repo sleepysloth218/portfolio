@@ -14,17 +14,14 @@ export default class About extends React.Component {
         </p>
         <p>
           At Brown, I am currently a research assistant for the{" "}
-          <a
-            href="https://brown-dash.github.io/Dash-Documentation/"
-            target="_blank"
-          >
-            Dash project group
+          <a href="" target="_blank">
+            _____ research group
           </a>{" "}
           and a teaching assistant for{" "}
-          <a href="http://cs1230.graphics/" target="_blank">
-            CSCI 1230
+          <a href="" target="_blank">
+            _____
           </a>
-          , Brown's undergraduate computer graphics course.
+          , Brown's undergraduate ______ course.
         </p>
         <p>
           My interests include computer graphics, web development, and UI/UX
